@@ -1,0 +1,39 @@
+.carousel-caption{
+    font-size: 30px;
+    margin-top: 45px;
+}
+footer h4{
+   position: relative;
+   left: 20px;
+}
+
+#redes i{
+    font-size: 20px;
+}
+.contactos{
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contactos li {
+    list-style: none;
+}
+
+
+
+@media screen and (min-width:300px) and (max-width:500px){
+    .carousel-caption{
+        font-size: 10px;
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:500px){
+    #video{
+        width: 100%;
+        height: 400px;
+
+    }
+}
